@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/base.css') }}">
+        <title>Study App</title>
+    </head>
+    <body>
+        <a href="{{ url_for('download') }}">Download qti file</a>
+        <a href="{{ url_for('submit') }}">Submit questions</a>
+        <a href="{{ url_for('review') }}">Review a question</a>
+    </body>
+</html>
